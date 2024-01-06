@@ -4,8 +4,7 @@
 classes 300 pixels wide, then give it a height so that it retains its 
 original square proportions (don't hardcode in a pixel value for the height!).*/
 
-.avatar,
-.proportioned {
+.avatar.proportioned {
     height: auto;
     width: 300px;
 }
@@ -14,8 +13,7 @@ original square proportions (don't hardcode in a pixel value for the height!).*/
  200 pixels wide, then make its height twice as big as its width 
  (here you should hardcode in a pixel value). */
 
-.avatar,
-.distorted {
+.avatar.distorted {
     height: 400px;
     width: 200px;
 }
