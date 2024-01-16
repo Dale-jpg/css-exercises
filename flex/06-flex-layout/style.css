@@ -30,9 +30,11 @@ input {
 
 /* Removes list bullets on list items */
 ul {
+  display:flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  gap: 16px;
 }
 
 /* Removes hyperlink underline and changed color to black*/
@@ -44,56 +46,31 @@ a {
 body {
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-.header {
-  display:flex;
-  justify-content: space-between;
-  padding: 8px;
-}
-
-.header .left-links {
-  display:flex;
-  justify-content: flex-start;
-  gap: 16px;
-}
-
-.header .right-links {
-  display: flex;
-  justify-content: flex-end;
-  gap: 16px;
-}
-
+.header,
 .footer {
   display:flex;
   justify-content: space-between;
-  padding: 8px;
+  padding: 16px;
+}
+
+.footer {
   background-color: #eee;
 }
 
-.footer .left-links {
-  display:flex;
-  justify-content: flex-start;
-  gap: 16px;
-}
-
-.footer .right-links {
-  display: flex;
-  justify-content: flex-end;
-  gap: 16px;
-}
-
 .content {
+  flex: 1;
   display:flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
+  gap: 16px;
 }
 
-.buttons {
-  display:flex;
-  justify-content: center;
-  padding: 8px;
-  gap: 8px;
+button {
+  padding: 8px 16px;
 }
+
+
+
