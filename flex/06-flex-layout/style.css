@@ -25,3 +25,75 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Adjustments */
+
+/* Removes list bullets on list items */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Removes hyperlink underline and changed color to black*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header .left-links {
+  display:flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.header .right-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.footer {
+  display:flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #eee;
+}
+
+.footer .left-links {
+  display:flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.footer .right-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.content {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.buttons {
+  display:flex;
+  justify-content: center;
+  padding: 8px;
+  gap: 8px;
+}
