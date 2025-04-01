@@ -47,32 +47,31 @@ ul {
   list-style-type: none;
 }
 
-/* ADJUSTMENTS */
+/* Going to add changes below this line to keep
+everything straight */
 
 .header {
-  display:flex;
-  align-items: center;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 8px;
 }
 
-.left {
-  display:flex;
-  justify-content: flex-start;
+.left-container {
+  display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 16px;
 }
 
-.right {
-  display:flex;
-  justify-content: flex-end;
+.right-container {
+  display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 16px;
 }
 
 ul {
-  display: flex;
+  display:flex;
   margin: 0;
   padding: 0;
-  gap: 18px;
+  gap: 16px;
 }

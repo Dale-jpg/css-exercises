@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display:flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -14,6 +18,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display:flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 
 a {
@@ -24,18 +32,21 @@ a {
   text-decoration: none;
 }
 
-/* Adjustments */
+/* Changes made to understand what I changed. Will 
+clean up at the end */
 
-.header {
+/* .header {
+  display:flex;
   padding: 8px;
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 ul {
-  display: flex;
+  display:flex;
   margin: 0;
   padding: 0;
   gap: 8px;
-}
+} */
+
+
