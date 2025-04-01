@@ -71,6 +71,7 @@ button.cancel {
 /* Changes by me */
 .modal {
   display:flex;
+  padding: 12px;
 }
 
 .icon {
@@ -82,12 +83,13 @@ button.cancel {
   display:flex;
   justify-content:space-between;
   align-items: center;
-  margin:  16px 12px 0 0;
+  /* margin:  16px 12px 0 0; */
 }
 
 
 .header {
   font-weight: 800;
+  font-size: 20px;
 }
 
 .continue,
@@ -98,5 +100,5 @@ margin:  8px 0px;
 }
 
 .text {
-  margin-right: 12px;
+  /* margin-right: 12px; */
 }
