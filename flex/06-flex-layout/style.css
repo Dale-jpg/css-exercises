@@ -37,7 +37,7 @@ a {
 }
 
 li {
-  margin: 8px;
+  margin: 12px;
 }
 .header {
   display:flex;
@@ -55,11 +55,27 @@ li {
 .footer {
   display:flex;
   justify-content: space-between;
+  background: #eee;
 }
 
 body {
   display:flex;
   flex-direction:column;
   justify-content:space-between;
+}
+
+.content {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+button {
+  flex: 1 0 auto;
+  padding: 8px;
+}
+
+input {
+  margin: 16px;
 }
 
