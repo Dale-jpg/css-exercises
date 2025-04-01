@@ -27,3 +27,22 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* Added by me */
+
+body {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+.content {
+  display:flex;
+}
+
+.card-container {
+  
+}
